@@ -33,7 +33,7 @@ class HabitTile extends StatelessWidget {
 
   //Calculate progress percentage
   double percentCompleted() {
-    return timeSpent / timeGoal * 60;
+    return timeSpent / (timeGoal * 60);
   }
 
   @override
