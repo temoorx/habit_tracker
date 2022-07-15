@@ -73,7 +73,7 @@ class HabitTile extends StatelessWidget {
                   height: 4,
                 ),
                 //Progress
-                Text(formatToMinSec(timeSpent) + '/ ' + timeGoal.toString() + '=' + percentCompleted().toStringAsFixed(0) + '%', style: GoogleFonts.poppins(color: Colors.grey))
+                Text(formatToMinSec(timeSpent) + '/ ' + timeGoal.toString() + '=' + (percentCompleted() * 100).toStringAsFixed(0) + '%', style: GoogleFonts.poppins(color: Colors.grey))
               ])
             ]),
             GestureDetector(onTap: settings, child: Icon(Icons.settings)),
