@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
       'Exercise',
       false,
       0,
-      1
+      10
     ],
     [
       'Read',
